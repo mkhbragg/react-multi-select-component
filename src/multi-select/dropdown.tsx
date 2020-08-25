@@ -121,6 +121,7 @@ const Dropdown = ({
   const handleMouseEnter = () => handleHover(true);
 
   const handleMouseLeave = () => handleHover(false);
+
   const toggleExpanded = () =>
     setExpanded(isLoading || disabled ? false : !expanded);
 
